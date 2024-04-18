@@ -4,7 +4,7 @@
   "description": "A typescript playground for problem solving, executing the concepts that are learnt etc.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch-all"
   },
   "keywords": [],
   "author": "",
