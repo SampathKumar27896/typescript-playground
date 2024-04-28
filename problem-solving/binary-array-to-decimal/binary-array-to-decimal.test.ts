@@ -1,4 +1,4 @@
-import binaryArrayToDecimal from './index';
+import binaryArrayToDecimal from './binary-array-to-decimal';
 
 /**
  * Sample test cases
