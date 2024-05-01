@@ -5,7 +5,8 @@ describe("Test twoSum using BruteForce method", () => {
     test("Test twoSumBruteForce using Array [2,7,11,15] and target = 9, expect: [0, 1]", () => {
         
         //Arrange
-        let nums = [2, 7, 11, 15], target = 9, expectedSum: number[] = [];
+        const nums = [2, 7, 11, 15], target = 9; 
+        let expectedSum: number[] = [];
 
         //Act
         expectedSum = twoSumBruteForce(nums, target);
@@ -18,7 +19,8 @@ describe("Test twoSum using BruteForce method", () => {
     test("Test twoSumBruteForce using Array [3,2,4] and target = 6, expect: [1, 2]", () => {
         
         //Arrange
-        let nums = [3,2,4], target = 6, expectedSum: number[] = [];
+        const nums = [3,2,4], target = 6;
+        let expectedSum: number[] = [];
 
         //Act
         expectedSum = twoSumBruteForce(nums, target);
@@ -31,7 +33,8 @@ describe("Test twoSum using BruteForce method", () => {
     test("Test twoSumBruteForce using Array [3, 3] and target = 6, expect: [0, 1]", () => {
         
         //Arrange
-        let nums = [3,3], target = 6, expectedSum: number[] = [];
+        const nums = [3,3], target = 6;
+        let expectedSum: number[] = [];
 
         //Act
         expectedSum = twoSumBruteForce(nums, target);
@@ -47,7 +50,8 @@ describe("Test twoSum using Map data structure", () => {
     test("Test twoSumBruteMap using Array [2,7,11,15] and target = 9, expect: [0, 1]", () => {
         
         //Arrange
-        let nums = [2, 7, 11, 15], target = 9, expectedSum: number[] = [];
+        let 
+        nums = [2, 7, 11, 15], target = 9, expectedSum: number[] = [];
 
         //Act
         expectedSum = twoSumMap(nums, target);

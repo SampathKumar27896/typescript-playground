@@ -3,17 +3,24 @@
   "version": "1.0.0",
   "description": "A typescript playground for problem solving, executing the concepts that are learnt etc.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test:watchAll": "jest --watch-all",
-    "test": "jest"
+    "test": "jest",
+    "dev": "tsc --watch",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.1.1",
     "@types/jest": "^29.5.12",
+    "eslint": "^8.57.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0"
   }
 }
