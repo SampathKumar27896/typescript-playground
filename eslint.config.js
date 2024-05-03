@@ -11,6 +11,6 @@ export default tseslint.config(
         ]
     },
     {
-        ignores: [".dist/","jest.config.js"]
+        ignores: [".dist/","jest.config.js","**/*.test.ts"],
     }
 );

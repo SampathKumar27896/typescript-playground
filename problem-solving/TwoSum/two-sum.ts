@@ -43,7 +43,7 @@ const twoSumBruteForce = (nums: number[], target: number): number[] => {
 */
 const twoSumMap = (nums: number[], target: number): number[] => {
 
-    let addendMap = new Map<number, number>();
+    const addendMap = new Map<number, number>();
     let secondAddend = 0, firstAddend = 0;
     for(let i = 0; i < nums.length; i++) {
         firstAddend = nums[i];

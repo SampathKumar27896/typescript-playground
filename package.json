@@ -9,7 +9,7 @@
     "test": "jest",
     "dev": "tsc --watch",
     "lint": "eslint .",
-    "lint-fix": "eslint --fix"
+    "lint-fix": "eslint --fix ."
   },
   "keywords": [],
   "author": "",
